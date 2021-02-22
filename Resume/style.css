@@ -1,0 +1,57 @@
+/*styles for my resume*/
+
+/*css for my title*/
+strong {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #33485e;
+}
+
+body {
+
+}
+
+/*css for my name*/
+h1 {
+  font-family: open sans-serif;
+  color: #33485e;
+  text-transform: uppercase;
+}
+
+/*css for sections*/
+h2 {
+  font-size: 1.5em;
+  font-weight: bold, 400;
+  text-transform: uppercase;
+  color: white;
+  background-color: #33485e;
+}
+
+/*css for my job titles*/
+h3 {
+  font-size: 1.5em;
+  font-weight: bold, 600;
+}
+
+/*css for my place of work*/
+h4 {
+  font-size: 1.5em;
+}
+
+/*css for dates*/
+h5 {
+  font-weight: bold; 400;
+  font-style: italic;
+  font-size: 1em;
+}
+
+/*css for my unordered lists*/
+ul {
+  font-size: 1em
+  font-family: open sans-serif;
+}
+
+/*css for the paragraphs*/
+p{
+  font-family: open sans-serif;
+}
