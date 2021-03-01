@@ -1,10 +1,14 @@
 /*styles for my resume*/
 
 /*css for my title*/
-strong {
+.title {
   text-transform: uppercase;
   font-size: 1.5em;
   color: #33485e;
+  font-weight: 600;
+  text-align: center; /*isn't working. Not sure why*/
+  margin-top: 20px;
+  margin: 0px;
 }
 
 body {
@@ -66,8 +70,24 @@ body {
   font-size: 1em
   font-family: open sans-serif;
   margin: 0px;
-  text-align: center; /*interesting*/
+  text-align: center;
+  list-style-position: inside; /*not sure how to do this*/
 }
+
+.degrees {
+  font-size: 1em;
+  font-family: open sans-serif;
+  margin-top: 5px;
+  margin: 0px;
+}
+
+.do {
+  font-size: 1em;
+  font-family: open sans-serif;
+  margin-top: 5px;
+  margin: 0px;
+}
+
 
 /*css for the paragraphs*/
 .description {
