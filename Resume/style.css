@@ -12,10 +12,16 @@ body {
 }
 
 /*css for my name*/
-h1 {
+/*this is the div class*/
+.name {
   font-family: open sans-serif;
   color: #33485e;
   text-transform: uppercase;
+  border-bottom: solid;
+  border-width: 1px;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto; 
 }
 
 /*css for sections*/
