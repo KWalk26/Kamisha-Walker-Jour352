@@ -1,4 +1,10 @@
 /*styles for my resume*/
+.id {
+  width: 100px;
+  max-width: 1200px;
+  margin: 0px;
+  padding-bottom: 50px;
+} /*think I broke it*/
 
 /*css for my title*/
 .title {
