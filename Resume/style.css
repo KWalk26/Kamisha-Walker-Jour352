@@ -21,43 +21,58 @@ body {
   border-width: 1px;
   width: 60%;
   min-width: 300px;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 /*css for sections*/
-h2 {
+.sectionheader { /*when I added the .sectionheader naming here it erased the formatting
+  for my "skills" h2 heading. Really weird cause it worked on everything
+  else. But anyways, I changed it back.*/ /*sike got it to work*/
   font-size: 1.5em;
   font-weight: bold, 400;
   text-transform: uppercase;
   color: white;
   background-color: #33485e;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
-/*css for my job titles*/
-h3 {
+/*css for my job titles*/ /*left as is*/
+.jobtitle {
   font-size: 1.5em;
   font-weight: bold, 600;
 }
 
 /*css for my place of work*/
-h4 {
-  font-size: 1.5em;
+.organization {
+  font-size: 1.25em;
 }
 
 /*css for dates*/
-h5 {
+.date {
   font-weight: bold; 400;
   font-style: italic;
   font-size: 1em;
+  margin-top: 2px;
+  margin: 0px;
 }
 
 /*css for my unordered lists*/
-ul {
+.menu {
   font-size: 1em
   font-family: open sans-serif;
+  margin: 0px;
+  text-align: center; /*interesting*/
 }
 
 /*css for the paragraphs*/
-p{
+.description {
   font-family: open sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 0px;
 }
